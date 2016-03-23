@@ -31,7 +31,7 @@ a:focus {
 }
 /*-- header_top --*/
 .sidebar{
-  background:#6ecadc;
+  background-image: url("http://www.cuded.com/wp-content/uploads/2013/06/30-Black-Background.jpg");
   top: 0px;
   padding:2em 30px;
 }
@@ -44,9 +44,9 @@ a:focus {
 	
 }
 .sidebar img{
-	border:1px solid #fff;
-	padding:1em;
+	border-radius: 8%;
 	width:100%;
+  height:100%;
 }
 .details{
 	margin-top:2em;
@@ -58,12 +58,12 @@ a:focus {
 }  
 
 .details p{
-	color:#101010;
+	color:#fff;
 	font-size:0.9em;
 	margin:5px 0 2em 0;
 }
 .details p a{
-	color:#101010;
+	color:#fff;
 	font-size:0.9em;
 }
 address h3{
@@ -71,7 +71,7 @@ address h3{
 }
 address span{
 	display:block;
-	color:#101010;
+	color:#fff;
 	font-size:0.9em;
 	line-height:1.5em;
 }
