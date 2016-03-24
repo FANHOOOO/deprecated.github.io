@@ -155,21 +155,24 @@ address span{
 .skill_list{
 	padding:1.5em 0 0 2em;
 }
-.skill1,.skill2{
+.skill1,.skill2,.skill3{
 	 float:left;
-	 width:30%;
+	 width:20%;
 }
-.skill1 h4,.skill2 h4{
+.skill1 h4,.skill2 h4,.skill3 h4{
 	color:#333;
 	font-weight:600;
-	margin-bottom:1em;
+	margin-bottom:0.5em; 
 	display:inline-block;
 }
-.skill1 ul,.skill2 ul{
-	padding-left:4em;
+.skill1 ul,.skill2 ul,.skill3 ul{
+	padding-left:2em;
 }
-.skill1 ul li,.skill2 ul li{
+.skill1 ul li,.skill2 ul li,.skill3 ul li{
 	color:#333;
+}
+.education{
+  margin:2em 0;
 }
 .education  h3{
   background: #999;
@@ -181,10 +184,10 @@ h3.clr1{
 	background:#6ecadc;
 }
 h3.clr2{
-	background:#e9a820;
+	background:#808080;
 }
 h3.clr3{
-	background:#3eb991;
+	background:#808080;
 }
 .copywrite{
 	padding-left:2em;
@@ -295,14 +298,14 @@ h3.clr3{
 .cmpny1 {
   padding-bottom: 1.5em;
 }
-.skill1, .skill2 {
+.skill1, .skill2, .skill3 {
   float: left;
   width: 50%;
 }
-.skill1 ul li,.skill2 ul li{
+.skill1 ul li,.skill2 ul li,.skill3 ul li{
 	font-size:0.85em;
 }
-.skill1 h4, .skill2 h4 {
+.skill1 h4, .skill2 h4,.skill3 h4 {
   font-size: 1em;
 }
 .skill_list {
@@ -435,7 +438,7 @@ address {
   font-size: 0.75em;
 }
 .skill1 ul, .skill2 ul {
-  padding-left: 3em;
+  padding-left: 1em;
 }
 }
 @media (max-width: 384px){
