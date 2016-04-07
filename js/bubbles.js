@@ -156,8 +156,8 @@ function initEventListeners() {
  
 function updateCanvasDimensions() {
     canvas.attr({
-        height: 350,
-        width: 1200
+        height: 600,
+        width: 1800
     });
     canvasWidth = canvas.width();
     canvasHeight = canvas.height();
@@ -273,10 +273,10 @@ function drawName(name, letterColors) {
     }
  
     for (var j = 0; j < g.length; j++) {
-        g[j].curPos.x = (canvasWidth / 2 - 180) + g[j].curPos.x;
-        g[j].curPos.y = (canvasHeight / 2 - 180) + g[j].curPos.y;
-        g[j].originalPos.x = (canvasWidth / 2 - 300) + g[j].originalPos.x;
-        g[j].originalPos.y = (canvasHeight / 2 - 150) + g[j].originalPos.y;
+        g[j].curPos.x = (200) + g[j].curPos.x;
+        g[j].curPos.y = (200) + g[j].curPos.y;
+        g[j].originalPos.x = (200) + g[j].originalPos.x;
+        g[j].originalPos.y = (200) + g[j].originalPos.y;
     }
  
     pointCollection = new PointCollection();

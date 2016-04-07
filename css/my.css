@@ -1,0 +1,63 @@
+html, body{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 100%;
+	background: #ffffff;
+}
+
+
+.sidebar {
+	background-image: url("http://www.cuded.com/wp-content/uploads/2013/06/30-Black-Background.jpg");
+  	position: fixed;
+  	left: 0px;
+    height: 100%;
+
+}
+.sidebar_top h1{
+	font-size:2.7em;
+	font-weight:700;
+	margin-bottom:1em;
+	COLOR:#fff;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+}
+#myimage {
+	border-radius: 8%;
+	padding: 5px;
+	max-width: 100%;
+    height: auto;
+  	display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media only screen and (max-width: 768px){
+    .img-responsive {
+        width: 45%;
+    }
+    .sidebar {
+    	height: auto;
+    }
+
+}
+.phone, .email {
+	COLOR:#fff;
+}
+.details{
+	margin-top:2em;
+}
+.details h3{
+	font-weight:600;
+	font-size:1em;
+	color:#fff;
+}  
+
+.details p{
+	color:#fff;
+	font-size:0.9em;
+	margin:5px 0 2em 0;
+}
+.details p a{
+	color:#fff;
+	font-size:0.9em;
+}
+
