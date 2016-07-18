@@ -10,10 +10,14 @@ html, body{
   	position: fixed;
   	left: 0px;
     height: 100%;
-
+}
+.sidebarchange{
+	background-image: url("http://www.cuded.com/wp-content/uploads/2013/06/30-Black-Background.jpg");
+  	left: 0px;
+    height: 100%;
 }
 .sidebar_top h1{
-	font-size:2.7em;
+	font-size:2em;
 	font-weight:700;
 	margin-bottom:1em;
 	COLOR:#fff;
@@ -21,14 +25,22 @@ html, body{
     text-align: center;
 }
 #myimage {
-	border-radius: 8%;
-	padding: 5px;
-	max-width: 100%;
+	border-radius: 100%;
+	/*padding: 40px;*/
+	margin-top: 30px;
+	max-width: 60%;
     height: auto;
   	display: block;
     margin-left: auto;
     margin-right: auto; 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#tamu, #ecnu {
+	height: 80px;
+	width: 80px;
+}
+#education, #skill, #projects {
+	margin-left: 2em;
 }
 @media only screen and (max-width: 768px){
     .img-responsive {
@@ -39,11 +51,11 @@ html, body{
     }
 
 }
-.phone, .email {
+.phone, .email, .linkedin {
 	COLOR:#fff;
 }
 .details{
-	margin-top:2em;
+	/*margin-top:2em;*/
 }
 .details h3{
 	font-weight:600;
@@ -59,5 +71,14 @@ html, body{
 .details p a{
 	color:#fff;
 	font-size:0.9em;
+}
+/*
+.head, .titles{
+	margin-left: 4em;
+}*/
+
+.titles h2{
+	font-weight:600;
+	font-size:2.5em;
 }
 
