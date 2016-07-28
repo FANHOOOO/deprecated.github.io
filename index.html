@@ -12,6 +12,7 @@
    	 	<link rel="stylesheet" href="css/my.css">
    	 	<!-- hover css load -->
    	 	<link rel="stylesheet" href="css/hover.css">
+      <link rel="stylesheet" href="css/imghover.css">
    	 	<!-- materialize load -->
    	 	<link rel="stylesheet" href="css/materialize.css">
    	 	<!-- font awesome load -->
@@ -25,9 +26,11 @@
 	<body>
 		<div class="container-fluid">
     		<div class="row row-fluid">
-    			<div class="hidden-xs hidden-sm col-md-3 sidebar">
+    			<div class="hidden-xs hidden-sm col-md-3 col-lg-3 sidebar">
     				<div class="sidebar_top"> 
-        				<img src="images/fan1.jpg" class="img-circle img-responsive" id="myimage" onmouseover="this.src='images/fan22.jpg'" onmouseout="this.src='images/fan1.jpg'" />
+        				<div class="hover07 column">
+                  <figure><img src="images/me.jpg" class="img-fluid img-circle" alt="Responsive image" width="210" height="230" /></figure>
+                </div>
                 <h1>YIFAN JIANG</h1>
         		</div>
         		<div class="details text-center">
@@ -42,7 +45,9 @@
     			</div>
           <div class="visible-xs visible-sm col-md-3 sidebarchange">
             <div class="sidebar_top"> 
-                <img src="images/fan1.jpg" class="img-circle img-responsive" id="myimage" onmouseover="this.src='images/fan22.jpg'" onmouseout="this.src='images/fan1.jpg'" />
+                <div class="hover01 column">
+                  <figure><img src="images/me.jpg" class="img-fluid img-circle" alt="Responsive image" width="210" height="230" /></figure>
+                </div>
                 <h1>YIFAN JIANG</h1>
             </div>
             <div class="details text-center">
@@ -66,35 +71,21 @@
               </div>
             </div>
 
-        <!-- <div id="education" class="row row-content">
-          <div class="col-lg-10 col-md-10 col-lg-offset-1 col-md-offset-1 col-sm-12 col-xs-12">
-            <div class="h3 col-sm-12">
-              <h3><a  class="sidebar-link" href="#education">Education</a></h3>
-            </div>
-            <div id="edutable" class="col-sm-12"></div>
-            <div class="col-sm-12">
-              <button class="btn btn-default btn-sm btn-more btn-block" type="button" data-toggle="collapse" data-target="#collapseCourse" aria-expanded="false" aria-controls="collapseCourse"><i class="fa fa-angle-down" aria-hidden="true"></i> Courses <i class="fa fa-angle-down" aria-hidden="true"></i>
-              </button>
-            </div>
-            <div class="col-sm-12">
-              <div class="collapse" id="collapseCourse">
-                <div class="well">
-                  <div id="coursetables" class="row row-content"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-10 col-md-10 col-lg-offset-1 col-md-offset-1 col-sm-12 col-xs-12">
-            <hr>
-          </div>
-        </div> -->
-
-
-
             <div id="education" class="row row-content">
               <div class="col-lg-10 col-md-10 col-lg-offset-1 col-md-offset-1 col-sm-12 col-xs-12">
                 <div><h2>Education</h2></div>
                 <div id="edu" class="col-sm-12"></div>
+                <div class="col-sm-12">
+                  <button class="btn btn-default btn-sm btn-more btn-block" type="button" data-toggle="collapse" data-target="#collapseCourse" aria-expanded="false" aria-controls="collapseCourse"><i class="fa fa-angle-down" aria-hidden="true"></i> Courses <i class="fa fa-angle-down" aria-hidden="true"></i>
+                  </button>
+                </div>
+                <div class="col-sm-12">
+                  <div class="collapse" id="collapseCourse">
+                    <div class="well">
+                      <div id="coursetables" class="row row-content"></div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -116,6 +107,7 @@
     		<br>
 		</div>
     <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/my.js"></script>
 	</body>
 </html>

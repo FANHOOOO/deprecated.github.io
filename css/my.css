@@ -6,13 +6,14 @@ html, body{
 
 
 .sidebar {
-	background-image: url("http://www.cuded.com/wp-content/uploads/2013/06/30-Black-Background.jpg");
+	background: #FAFAFA;
   	position: fixed;
+  	border-right: 1px solid #E9E9E9;
   	left: 0px;
     height: 100%;
 }
 .sidebarchange{
-	background-image: url("http://www.cuded.com/wp-content/uploads/2013/06/30-Black-Background.jpg");
+	background: #FAFAFA;
   	left: 0px;
     height: 100%;
 }
@@ -20,37 +21,19 @@ html, body{
 	font-size:2em;
 	font-weight:700;
 	margin-bottom:1em;
-	COLOR:#fff;
+	COLOR: black;
     font-family: 'Varela Round', sans-serif;
     text-align: center;
 }
-#myimage {
-	border-radius: 100%;
-	/*padding: 40px;*/
-	margin-top: 30px;
-	max-width: 60%;
-    height: auto;
-  	display: block;
-    margin-left: auto;
-    margin-right: auto; 
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+
 #tamu, #ecnu {
 	height: 80px;
 	width: 80px;
 }
 
-@media only screen and (max-width: 768px){
-    .img-responsive {
-        width: 45%;
-    }
-    .sidebar {
-    	height: auto;
-    }
 
-}
 .phone, .email, .linkedin {
-	COLOR:#fff;
+	COLOR: black;
 }
 .details{
 	/*margin-top:2em;*/
@@ -58,22 +41,19 @@ html, body{
 .details h3{
 	font-weight:600;
 	font-size:1em;
-	color:#fff;
+	color: black;
 }  
 
 .details p{
-	color:#fff;
+	color: black;
 	font-size:0.9em;
 	margin:5px 0 2em 0;
 }
 .details p a{
-	color:#fff;
+	color: black;
 	font-size:0.9em;
 }
-/*
-.head, .titles{
-	margin-left: 4em;
-}*/
+
 
 .titles h2{
 	font-weight:600;

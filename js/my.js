@@ -33,7 +33,7 @@ $(document).ready(function() {
             obj.education.colleges[i].time +
             '</td></tr><tr>';
 
-        coursetext += '<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"><table class="table table-condensed" style="border-top: thick solid ' +
+        coursetext += '<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><table class="table table-condensed" style="border-top: thick solid ' +
             obj.education.colleges[i].color +
             ';"><tr><th>' +
             obj.education.colleges[i].name +
@@ -47,21 +47,7 @@ $(document).ready(function() {
     }
     edutext += '</table>';
     $('#edu').html(edutext);
-
-    // for (var i = 0; i < obj.education.others.length; i++) {
-    //     coursetext += '<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"><table class="table table-condensed" style="border-top: thick solid ' +
-    //         obj.education.others[i].color +
-    //         ';"><tr><th>' +
-    //         obj.education.others[i].name +
-    //         '</th></tr>';
-    //     for (var j = 0; j < obj.education.others[i].courses.length; j++) {
-    //         coursetext += '<tr><td>' +
-    //             obj.education.others[i].courses[j] +
-    //             '</td></tr>';
-    //     }
-    //     coursetext += '<tr><td>etc.</td></tr></table></div>'
-    // }
-    // $('#coursetables').html(coursetext);
+    $('#coursetables').html(coursetext);
 
     var skilltext = '<table class="table boardless">';
     for (var i = 0; i < obj.skills.length; i++) {
@@ -84,7 +70,7 @@ $(document).ready(function() {
             obj.projects[i].time + 
             '</span></div><div class="col-sm-12 label-div"><a type="button" href="' +
             obj.projects[i].link +
-            '"><span class="label label-info"><i class="' +
+            '"><span class="label label-primary"><i class="' +
             obj.projects[i].logo +
             '"></i></span></a> ';
 
@@ -110,9 +96,9 @@ $(document).ready(function() {
 
     // $('#resumeframe').attr('height', window.innerHeight - 150);
 
-    // $('[data-toggle="tooltip"]').tooltip({
-    //     container: 'body'
-    // });
+    $('[data-toggle="tooltip"]').tooltip({
+        container: 'body'
+    });
 
     // if ($(window).width() < 768) {
     //     setTimeout(function() {
@@ -170,14 +156,14 @@ $(document).ready(function() {
 //     });
 // });
 
-// $(window).resize(function() {
-//     if ($(this).width() < 768) {
-//         $("#sidebar-toggled").collapse('show');
-//     } else {
-//         $("#sidebar-toggled").collapse('hide');
-//     }
-//     $('#resumeframe').attr('height', window.innerHeight - 150);
-// });
+$(window).resize(function() {
+    if ($(this).width() < 768) {
+        $("#sidebar-toggled").collapse('show');
+    } else {
+        $("#sidebar-toggled").collapse('hide');
+    }
+    $('#resumeframe').attr('height', window.innerHeight - 150);
+});
 
 // if (($(window).height() + 100) < $(document).height()) {
 //     $('#top-link-block').removeClass('hidden').affix({
