@@ -1,0 +1,204 @@
+{
+    "basics": {
+        "name": "Yifan Jiang",
+        "tel": "OTc5Njc2NzUxOQ==",
+        "email": "eWlmYW5qaWFuZ0Bob3RtYWlsLmNvbQ==",
+        "links": [
+            {
+                "name": "github",
+                "link": "https://github.com/FANLOYU"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/yifan-jiang-82b505a2"
+            },
+            {
+                "name": "instagram",
+                "link": "https://www.instagram.com/yifanjiang0827/?hl=en"
+            },
+            {
+                "name": "facebook",
+                "link": "https://www.facebook.com/profile.php?id=100005058378450"
+            }
+        ],
+        "portrait": ["images/fan1.jpg","images/fan22.jpg"]
+    },
+
+    "education": {
+        "colleges": [
+            {
+                "name": "Texas A &amp; M University(TAMU)",
+                "logo": "images/tamu.jpg",
+                "color": "#500000",
+                "degree": "Master of Engineering Degree",
+                "major": "Electrical Engineering in ECE department",
+                "location": "College Station, TX",
+                "time": "May 2016",
+                "gpa": "3.50",
+                "overall": "4.00",
+                "courses": [
+                    "Database Systems",
+                    "Analysis of Algorithms",
+                    "Software Engineering",
+                    "Distributed System &amp; Cloud Computing",
+                    "Computer Communication &amp; Networking",
+                    "Internet Protocols &amp; Modeling",
+                    "Pattern Recognition",
+                    "Stochastic Systems",
+                    "Digital Integrated Circuit Design"
+                ]
+            },
+            {
+                "name": "East China Normal University(ECNU)",
+                "logo": "images/ecnu.png",
+                "color": "#63065f",
+                "degree": "Bachelor of Science",
+                "major": "Electronic Science and Technology in Physics department",
+                "location": "Shanghai, China",
+                "time": "Jul. 2014",
+                "gpa": "3.56",
+                "overall": "4.00",
+                "courses": [
+                    "C Language Programming",
+                    "Electrical Engineering Technology and Experiment"
+                ]
+            }
+        ]
+    },
+
+    "skills": [
+        {
+            "type": "Languages",
+            "items": [
+                "Java",
+                "C",
+                "JavaScript",
+                "Ruby",
+                "SQL",
+                "Shell Scripting"
+            ]
+        },
+        {
+            "type": "Web Skills",
+            "items": [
+                "JavaScript",
+                "Ruby on Rails",
+                "Bootstrap",
+                "jQuery",
+                "HTML",
+                "CSS",
+                "XML",
+                "JSON"
+            ]
+        },
+        {
+            "type": "Software Dev",
+            "items": [
+                "Agile/Scrum",
+                "Git",
+                "BDD/Cucumber",
+                "TDD/Rspec"
+            ]
+        },
+        {
+            "type": "Tools",
+            "items": [
+                "Linux",
+                "Matlab",
+                "Git",
+                "LATEX",
+                "Sublime",
+                "Xcode",
+                "Eclipse"
+            ]
+        }
+    ],
+    
+    "projects": [
+        {
+            "title": "Full Stack Scrum Development For SaaS Application",
+            "tags": [
+                "Ruby on Rails",
+                "PostgreSQL",
+                "JavaScript",
+                "Bootstrap",
+                "Agile/Scrum",
+                "MVC",
+                "SaaS"
+            ],
+            "description": [
+                "As Scrum Master, in the first iteration, created user stories with Pivotal Tracker after interacting with customers and designed lo-fi UI mockups and storyboards",
+                "In the following iteration, based on MVC model, constructed the web application with Ruby on Rails, designed application view with CSS/Bootstrap and improved customers interactive experience with JavaScript/jQuery",
+                "Created a comprehensive set of Cucumber and RSpec test cases for each user story, kept each version using Git, and then deployed to Heroku",
+                "Received feedbacks from customers each iteration and adjusted plans for the following iterations"
+            ],
+            "link": "https://github.com/GoldenMinerGo/Mentor-Matching-System",
+            "logo": "fa fa-fw fa-github",
+            "time": "May 2016"
+        },
+        {
+            "title": "Network Routing Optimization",
+            "tags": [
+                "Java",
+                "Algorithms",
+                "Data Structures"
+            ],
+            "description": [
+                "Constructed graph models for real-world complex networks with Java",
+                "Applied multiple data structures like linked list and heap and different max-bandwidth-path algorithms like Dijkstra and Kruskal algorithm to implement different network routing protocols on each network model with Java"
+            ],
+            "link": "",
+            "logo": "fa fa-fw fa-github",
+            "time": "Nov. 2015"
+        },
+        {
+            "title": "Socket Programming and NS-2 Simulation",
+            "tags": [
+                "C",
+                "Socket Programming",
+                "TCP/UDP",
+                "HTTP"
+            ],
+            "description": [
+                "Implemented the client which uses I/O multiplexing to handle both sending and receiving messages and the server for a chat service with C",
+                "Implemented a Trivial File Transfer Protocol(TFTP) server over UDP",
+                "Designed a simple HTTP proxy server and HTTP command line client",
+                "Constructed a simulated network and tested it with DROPTAIL and RED buffer management strategies separately with NS-2 simulator"
+            ],
+            "link": "",
+            "logo": "fa fa-fw fa-github",
+            "time": "Oct. 2015"
+        },
+        {
+            "title": "Genetic-Based Machine Learning Approaches",
+            "tags": [
+                "Matlab",
+                "Machine Learning",
+                "Pattern Recognition"
+            ],
+            "description": [
+                "Designed algorithms according to three classification rules: DLDA, 3NN and SVM, two error estimator: Resubstitution and Leave-one-out cross-validation, and two feature procedure: Exhaustive Search and Sequential Forward Search",
+                "Designed a parallel computing approach to improve the calculating efficiency",
+                "Selected optimal gene expression data set as classification criterion from a large number of cancer data with the above algorithms separately in Matlab"
+            ],
+            "link": "",
+            "logo": "fa fa-fw fa-github",
+            "time": "May 2015"
+        },
+        {
+            "title": "Database and Interactive User Interface Design",
+            "tags": [
+                "Database",
+                "MYSQL",
+                "Java"
+            ],
+            "description": [
+                "According to customers' requirements, organized the required information and designed detailed data models of a new database based on MYSQL",
+                "Built a moderately user-friendly interactive application program connected to the database server based on Java"
+            ],
+            "link": "",
+            "logo": "fa fa-fw fa-github",
+            "time": "Nov. 2014"
+        }
+    ]
+}

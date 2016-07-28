@@ -39,9 +39,7 @@ html, body{
 	height: 80px;
 	width: 80px;
 }
-#education, #skill, #projects {
-	margin-left: 2em;
-}
+
 @media only screen and (max-width: 768px){
     .img-responsive {
         width: 45%;
@@ -80,5 +78,13 @@ html, body{
 .titles h2{
 	font-weight:600;
 	font-size:2.5em;
+}
+
+.boardless tbody tr td {
+    border: none;
+    vertical-align: middle;
+}
+.label-div {
+    line-height: 25px;
 }
 
