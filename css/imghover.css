@@ -66,10 +66,8 @@ h2 span {
 	opacity: 0;
 }
 figure {
-	margin: 0;
+	margin: auto;
 	padding: 10px;
-	/*background: #fff;*/
-	/*overflow: hidden;*/
 }
 figure:hover+span {
 	bottom: -36px;
