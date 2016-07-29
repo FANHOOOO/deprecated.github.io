@@ -23,7 +23,7 @@ html, body{
 
 .boxshadow {
 	background-color: white;
-  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .sidebar_top img{
 	display: block;
@@ -83,3 +83,51 @@ html, body{
 .coursebutton {
 	border: none;
 }
+
+/* for side bar */
+.section {
+	display: block;
+}
+
+.table-of-contents.fixed {
+  position: fixed;
+}
+
+.table-of-contents li {	
+  padding-right: 25px;
+  text-align: right;
+}
+
+.table-of-contents a {
+  display: inline-block;
+  font-weight: 400;
+  color: #757575;
+  padding-right: 25px;
+  height: 2rem;
+  line-height: 1.5rem;
+  letter-spacing: .3;
+}
+
+.table-of-contents a:hover {
+  color: #9ab3e5;
+  padding-right: 25px;
+  text-decoration: none;
+}
+
+.table-of-contents a.active {
+  font-weight: 700;
+  color: #9ab3e5;
+  padding-right: 25px;
+}
+
+.sidelist ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.sidelist ul li {
+  list-style-type: none;
+}
+
+
+

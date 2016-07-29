@@ -96,6 +96,8 @@ $(document).ready(function() {
 
     // $('#resumeframe').attr('height', window.innerHeight - 150);
 
+    $('.scrollspy').scrollSpy();
+
     $('[data-toggle="tooltip"]').tooltip({
         container: 'body'
     });
