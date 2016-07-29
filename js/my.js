@@ -70,7 +70,7 @@ $(document).ready(function() {
             obj.projects[i].time + 
             '</span></div><div class="col-sm-12 label-div"><a type="button" href="' +
             obj.projects[i].link +
-            '"><span class="label label-primary"><i class="' +
+            '"><span class="label label-github"><i class="' +
             obj.projects[i].logo +
             '"></i></span></a> ';
 
@@ -100,11 +100,11 @@ $(document).ready(function() {
         container: 'body'
     });
 
-    // if ($(window).width() < 768) {
-    //     setTimeout(function() {
-    //         $("#sidebar-toggled").collapse('show');
-    //     }, 500);
-    // }
+    if ($(window).width() < 768) {
+        setTimeout(function() {
+            $("#sidebar-toggled").collapse('show');
+        }, 500);
+    }
 });
 
 // $('#wechat').popover({
