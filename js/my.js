@@ -165,6 +165,7 @@ $(window).resize(function() {
         $("#sidebar-toggled").collapse('hide');
     }
     $('#resumeframe').attr('height', window.innerHeight - 150);
+
 });
 
 // if (($(window).height() + 100) < $(document).height()) {

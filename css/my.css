@@ -45,25 +45,11 @@ html, body{
 .phone, .email, .linkedin {
 	COLOR: black;
 }
-.details{
-	/*margin-top:2em;*/
-}
-.details h3{
-	font-weight:600;
-	font-size:1em;
-	color: black;
-}  
 
-.details p{
-	color: black;
-	font-size:0.9em;
-	margin:5px 0 2em 0;
+.sidelink a i {
+	font-size: 0.9em;
+	display: block;
 }
-.details p a{
-	color: black;
-	font-size:0.9em;
-}
-
 
 .titles h2{
 	font-weight:600;
@@ -93,31 +79,39 @@ html, body{
   position: fixed;
 }
 
-.table-of-contents li {	
-  padding-right: 25px;
+.table-of-contents li{	
+  padding-right: 20px;
   text-align: right;
+  display: block;
+  line-height: 40px;
 }
 
 .table-of-contents a {
   display: inline-block;
   font-weight: 400;
   color: #757575;
-  padding-right: 25px;
+  padding-right: 20px;
   height: 2rem;
-  line-height: 1.5rem;
-  letter-spacing: .3;
+  display: inline-block;
+}
+
+.table-of-contents i{
+	line-height: inherit;
+	text-align: center;
+	text-indent: 0px;
+	width: 30px;
 }
 
 .table-of-contents a:hover {
-  color: #9ab3e5;
-  padding-right: 25px;
+  color: #e5ac9a;
+  padding-right: 20px;
   text-decoration: none;
 }
 
 .table-of-contents a.active {
   font-weight: 700;
-  color: #9ab3e5;
-  padding-right: 25px;
+  color: #e5ac9a;
+  padding-right: 20px;
 }
 
 .sidelist ul {
