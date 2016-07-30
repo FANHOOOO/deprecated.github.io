@@ -13,6 +13,7 @@ html, body{
     height: 100%;
     width: 300px;
 }
+
 .sidebarchange{
 	background: #FAFAFA;
     height: 100%;
@@ -43,6 +44,9 @@ html, body{
 	width: 80px;
 }
 
+.sidelink {
+	border-bottom: 1px solid #E9E9E9;
+}
 
 .sidelink a{
 	font-size: 1.1em;
@@ -82,7 +86,7 @@ html, body{
 }
 
 .table-of-contents li{	
-  padding-right: 20px;
+  padding-right: 18px;
   text-align: right;
   display: block;
   line-height: 40px;
@@ -92,7 +96,7 @@ html, body{
   display: inline-block;
   font-weight: 400;
   color: #757575;
-  padding-right: 20px;
+  padding-right: 18px;
   height: 2rem;
   display: inline-block;
 }
@@ -106,14 +110,14 @@ html, body{
 
 .table-of-contents a:hover {
   color: #e5ac9a;
-  padding-right: 20px;
+  padding-right: 18px;
   text-decoration: none;
 }
 
 .table-of-contents a.active {
   font-weight: 700;
   color: #e5ac9a;;
-  padding-right: 20px;
+  padding-right: 18px;
 }
 
 .sidelist ul {
