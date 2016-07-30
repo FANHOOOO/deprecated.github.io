@@ -90,9 +90,9 @@ $(document).ready(function() {
     projecttext += '</tbody></table>';
     $('#projecttable').html(projecttext);
 
-    // var text = atob(obj.basics.email);
-    // $('#mail-toggled').attr('href', 'mailto:' + text);
-    // $('#mail-sidebar').attr('href', 'mailto:' + text);
+    var text = atob(obj.basics.email);
+    $('#mail-toggled').attr('href', 'mailto:' + text);
+    $('#mail-sidebar').attr('href', 'mailto:' + text);
 
     // $('#resumeframe').attr('height', window.innerHeight - 150);
 
