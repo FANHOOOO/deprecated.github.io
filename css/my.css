@@ -99,6 +99,7 @@ html, body{
   padding-right: 18px;
   height: 2rem;
   display: inline-block;
+  text-decoration: none;
 }
 
 .table-of-contents i{
@@ -118,6 +119,7 @@ html, body{
   font-weight: 700;
   color: #e5ac9a;;
   padding-right: 18px;
+  text-decoration: none;
 }
 
 .sidelist ul {
