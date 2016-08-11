@@ -206,5 +206,48 @@
             "logo": "fa fa-fw fa-github",
             "time": "Nov. 2014"
         }
+    ],
+
+    "blogs": [
+        {
+            "title": "My Personal Technology Blog",
+            "tags": [
+                "Octopress",
+                "Ruby On rails",
+                "HTML/CSS",
+                "Bootstrap",
+                "JavaScript",
+                "jQuery"  
+            ],
+            "description": [
+                "Based on Octopress Blog Framework, Build Personal Technology Blog",
+                "Blog is built on Ruby on Rails and deployed with RVM and Git",
+                "Posts are edited with Macdown",
+                "Push to the Github Pages on gh-pages branch",
+                "Redesign the UI and customize with my own idea",
+                "Share technology, happiness and keep learning everyday"
+            ],
+            "link": "http://bo.fanloyu.com",
+            "logo": "fa fa-rss",
+            "time": "Jul. 2016"
+        },
+        {
+            "title": "My Personal Music Blog",
+            "tags": [
+                "HTML/CSS",
+                "Bootstrap",
+                "JavaScript",
+                "jQuery"
+            ],
+            "description": [
+                "Build and design my personal music blog from scratch",
+                "Push to the Github Pages on gh-pages branch",
+                "Keep record of my favorite guitar and piano tablature most of which come from other website and also post some original works",
+                "Keep learning and practicing everyday"
+            ],
+            "link": "http://mu.fanloyu.com",
+            "logo": "fa fa-music",
+            "time": "Aug. 2016"
+        }
     ]
 }

@@ -68,7 +68,7 @@ $(document).ready(function() {
             obj.projects[i].title + 
             '</B></div><div class="col-sm-3 text-right">' +
             obj.projects[i].time + 
-            '</span></div><div class="col-sm-12 label-div"><a type="button" href="' +
+            '</div><div class="col-sm-12 label-div"><a type="button" href="' +
             obj.projects[i].link +
             '"><span class="label label-github"><i class="' +
             obj.projects[i].logo +
@@ -87,8 +87,36 @@ $(document).ready(function() {
         }
         projecttext += '</ul></div>';
     }
-    projecttext += '</tbody></table>';
+    // projecttext += '</tbody></table>';
     $('#projecttable').html(projecttext);
+
+    var blogstext = '';
+    for (var i = 0; i < obj.blogs.length; i++) {
+        blogstext += '<div class="col-sm-9"><B>' +
+            obj.blogs[i].title + 
+            '</B></div><div class="col-sm-3 text-right">' +
+            obj.blogs[i].time + 
+            '</div><div class="col-sm-12 label-div"><a type="button" href="' +
+            obj.blogs[i].link +
+            '"><span class="label label-github"><i class="' +
+            obj.blogs[i].logo +
+            '"></i></span></a> ';
+
+        for (var j = 0; j < obj.blogs[i].tags.length; j++) {
+            blogstext += '<span class="label label-default">' + obj.blogs[i].tags[j] + '</span> ';
+        }
+
+        blogstext += '</div><div class="col-sm-12"><ul>';
+
+        for (var j = 0; j < obj.blogs[i].description.length; j++) {
+            blogstext += '<li>' +
+                obj.blogs[i].description[j] +
+                '</li>';
+        }
+        blogstext += '</ul></div>';
+    }
+    // blogstext += '</tbody></table>';
+    $('#blogstable').html(blogstext);
 
     var text = atob(obj.basics.email);
     $('#mail-toggled').attr('href', 'mailto:' + text);
