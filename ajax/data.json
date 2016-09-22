@@ -77,6 +77,7 @@
             "type": "Languages",
             "items": [
                 "Java",
+                "Python",
                 "C",
                 "JavaScript",
                 "Ruby",
@@ -87,20 +88,21 @@
         {
             "type": "Web Skills",
             "items": [
-                "JavaScript",
                 "Ruby on Rails",
+                "AngularJS",
+                "Node.js",
                 "Bootstrap",
-                "jQuery",
-                "HTML",
-                "CSS",
-                "XML",
-                "JSON"
+                "JavaScript/jQuery",
+                "HTML/CSS",
+                "XML/JSON"
             ]
         },
         {
             "type": "Software Dev",
             "items": [
                 "Agile/Scrum",
+                "SaaS",
+                "Full Stack Development",
                 "Git",
                 "BDD/Cucumber",
                 "TDD/Rspec"
@@ -110,12 +112,14 @@
             "type": "Tools",
             "items": [
                 "Linux",
-                "Matlab",
+                "MacOS",
+                "Github",
                 "Git",
-                "LATEX",
-                "Sublime",
                 "Xcode",
-                "Eclipse"
+                "Eclipse",
+                "Matlab",
+                "LATEX",
+                "Sublime"               
             ]
         }
     ],
@@ -133,10 +137,11 @@
                 "SaaS"
             ],
             "description": [
-                "As Scrum Master, in the first iteration, created user stories with Pivotal Tracker after interacting with customers and designed lo-fi UI mockups and storyboards",
-                "In the following iteration, based on MVC model, constructed the web application with Ruby on Rails, designed application view with CSS/Bootstrap and improved customers interactive experience with JavaScript/jQuery",
-                "Created a comprehensive set of Cucumber and RSpec test cases for each user story, kept each version using Git, and then deployed to Heroku",
-                "Received feedbacks from customers each iteration and adjusted plans for the following iterations"
+                "Built a student community website with Ruby on Rails, PostgreSQL, JavaScript and Bootstrap to help students and mentors form teams for competitions",
+                "Exploited SaaS model, MVC model, RESTful API, and Agile development with a team of 6",
+                "As Scrum Master, created user stories and designed lo-fi UI mockups and storyboards",
+                "Based on third party API(Facebook/Google Login), add third party login and encode local registering passward",
+                "Created a comprehensive set of test cases, kept each version using Git, and then deployed to Heroku"
             ],
             "link": "https://github.com/GoldenMinerGo/Mentor-Matching-System",
             "logo": "fa fa-fw fa-github",
@@ -150,8 +155,8 @@
                 "Data Structures"
             ],
             "description": [
-                "Constructed graph models for real-world complex networks with Java",
-                "Applied multiple data structures like linked list and heap and different max-bandwidth-path algorithms like Dijkstra and Kruskal algorithm to implement different network routing protocols on each network model with Java"
+                "Constructed graph models for real-world complex networks with Java and exploited Bitmap to save huge space",
+                "Applied multiple data structures like linked list and heap and different max-bandwidth-path algorithms like Dijkstra and Kruskal algorithm to implement different network routing protocols on network model with Java"
             ],
             "link": "https://github.com/FANLOYU/Network-Routing-Optimization",
             "logo": "fa fa-fw fa-github",
@@ -166,9 +171,9 @@
                 "HTTP"
             ],
             "description": [
-                "Implemented the client which uses I/O multiplexing to handle both sending and receiving messages and the server for a chat service with C",
+                "Implemented a chat service server and client, optimized efficiency with I/O multiplexing to handle simultaneously sending and receiving messages with C",
                 "Implemented a Trivial File Transfer Protocol(TFTP) server over UDP",
-                "Designed a simple HTTP proxy server and HTTP command line client",
+                "Designed a simple HTTP proxy server with LRU and HTTP command line client",
                 "Constructed a simulated network and tested it with DROPTAIL and RED buffer management strategies separately with NS-2 simulator"
             ],
             "link": "https://github.com/FANLOYU/Socket-Programming-and-NS-2-Simulation",
@@ -183,9 +188,9 @@
                 "Pattern Recognition"
             ],
             "description": [
-                "Designed algorithms according to three classification rules: DLDA, 3NN and SVM, two error estimator: Resubstitution and Leave-one-out cross-validation, and two feature procedure: Exhaustive Search and Sequential Forward Search",
-                "Designed a parallel computing approach to improve the calculating efficiency",
-                "Selected optimal gene expression data set as classification criterion from a large number of cancer data with the above algorithms separately in Matlab"
+                "Identified gene-expression signatures in a genetic dataset with LDA, KNN and SVM algorithms",
+                "Analyzed the performance of multiple classifier design, error estimation, and feature selection techniques",
+                "Designed a parallel computing approach to improve the calculating efficiency"
             ],
             "link": "https://github.com/FANLOYU/Genetic-Based-Machine-Learning-Approaches",
             "logo": "fa fa-fw fa-github",
@@ -199,8 +204,8 @@
                 "Java"
             ],
             "description": [
-                "According to customers' requirements, organized the required information and designed detailed data models of a new database based on MYSQL",
-                "Built a moderately user-friendly interactive application program connected to the database server based on Java"
+                "Designed detailed data models of a new database for TAMU student accounts based on MYSQL",
+                "Exploited database API to build an user-friendly interactive application program connected to the database server based on Java for data collecting and analysis"
             ],
             "link": "https://github.com/FANLOYU/Database-and-Interactive-User-Interface-Design",
             "logo": "fa fa-fw fa-github",
